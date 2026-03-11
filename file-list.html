@@ -411,6 +411,7 @@
           item => item.type === 'file'
             && !item.name.toLowerCase().startsWith('readme')
             && item.name.toLowerCase() !== 'file-list.html'
+            && item.name.toLowerCase() !== 'index.html'
         );
 
         if (files.length === 0) renderEmpty();
