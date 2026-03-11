@@ -175,7 +175,7 @@ function CardFace({ text, lang, flag, hint, isBack, isItalian, italianText }) {
     }
   },
     // Language badge
-    h('div', { style:{position:'absolute',top:'18px',left:'22px',display:'flex',alignItems:'center',gap:'7px',background:acDim,border:`1px solid ${ac}30`,borderRadius:'20px',padding:'4px 12px'} },
+    h('div', { style:{position:'absolute',top:'18px',left:'22px',display:'flex',alignItems:'center',gap:'7px'} },
       h(FlagIcon, { code: flag, width:20, height:15 }),
       h('span', { style:{fontSize:'11px',letterSpacing:'2px',color:ac,textTransform:'uppercase',fontFamily:'Arial,sans-serif'} }, lang)
     ),
